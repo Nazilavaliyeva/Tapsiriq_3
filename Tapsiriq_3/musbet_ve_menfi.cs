@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Tapsiriq_3
 {
-    public partial class Form1 : Form
+    public partial class musbet_ve_menfi : Form
     {
-        public Form1()
+        public musbet_ve_menfi()
         {
             InitializeComponent();
-        }
-
-        private void musbet_Click(object sender, EventArgs e)
-        {
-            musbet_ve_menfi musbet_Ve_Menfi = new musbet_ve_menfi();
-            musbet_Ve_Menfi.Show();
         }
     }
 }

@@ -139,6 +139,7 @@
             this.musbet.TabIndex = 10;
             this.musbet.Text = "Müsbət / Mənfi";
             this.musbet.UseVisualStyleBackColor = true;
+            this.musbet.Click += new System.EventHandler(this.musbet_Click);
             // 
             // label1
             // 
@@ -175,7 +176,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Əməliyyatlar";
             this.ResumeLayout(false);
             this.PerformLayout();
 
