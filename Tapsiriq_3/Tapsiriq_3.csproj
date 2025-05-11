@@ -46,6 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cut_ve_tek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cut_ve_tek.Designer.cs">
+      <DependentUpon>Cut_ve_tek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cüt_ ve_tek.cs" />
+    <Compile Include="Cüt_ ve_tek.Designer.cs">
+      <DependentUpon>Cüt_ ve_tek.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +70,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cut_ve_tek.resx">
+      <DependentUpon>Cut_ve_tek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cüt_ ve_tek.resx">
+      <DependentUpon>Cüt_ ve_tek.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

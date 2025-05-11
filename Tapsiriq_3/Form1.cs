@@ -22,5 +22,11 @@ namespace Tapsiriq_3
             musbet_ve_menfi musbet_Ve_Menfi = new musbet_ve_menfi();
             musbet_Ve_Menfi.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Cut_ve_tek cut = new Cut_ve_tek();
+            cut.Show();
+        }
     }
 }
