@@ -79,6 +79,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "_3_veya_4_bolunme";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "_3_veya_4_bolunme";
             this.ResumeLayout(false);
             this.PerformLayout();

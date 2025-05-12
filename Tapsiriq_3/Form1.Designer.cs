@@ -88,6 +88,7 @@
             this.button4.TabIndex = 13;
             this.button4.Text = "4 və 6-ya bölünmə";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 

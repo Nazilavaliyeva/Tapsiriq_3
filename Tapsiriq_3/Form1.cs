@@ -56,8 +56,14 @@ namespace Tapsiriq_3
 
         private void button3_Click(object sender, EventArgs e)
         {
-            _3_veya_4_bolunme bolunme = new 3_veya_4_bolunme();
+            _3_veya_4_bolunme bolunme = new _3_veya_4_bolunme();
             bolunme.Show(); 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            _4_veya_6_bolunme Bolunme = new _4_veya_6_bolunme(); 
+            Bolunme.Show();
         }
 
         //
