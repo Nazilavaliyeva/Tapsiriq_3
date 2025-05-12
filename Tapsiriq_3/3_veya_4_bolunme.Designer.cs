@@ -68,6 +68,7 @@
             this.button1.TabIndex = 13;
             this.button1.Text = "yoxla";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // _3_veya_4_bolunme
             // 
