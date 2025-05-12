@@ -52,6 +52,12 @@
     <Compile Include="3_veya_4_bolunme.Designer.cs">
       <DependentUpon>3_veya_4_bolunme.cs</DependentUpon>
     </Compile>
+    <Compile Include="4_veya_6_bolunme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4_veya_6_bolunme.Designer.cs">
+      <DependentUpon>4_veya_6_bolunme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cut_ve_tek.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="3_veya_4_bolunme.resx">
       <DependentUpon>3_veya_4_bolunme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4_veya_6_bolunme.resx">
+      <DependentUpon>4_veya_6_bolunme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cut_ve_tek.resx">
       <DependentUpon>Cut_ve_tek.cs</DependentUpon>
