@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3_veya_4_bolunme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3_veya_4_bolunme.Designer.cs">
+      <DependentUpon>3_veya_4_bolunme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cut_ve_tek.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="3_veya_4_bolunme.resx">
+      <DependentUpon>3_veya_4_bolunme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cut_ve_tek.resx">
       <DependentUpon>Cut_ve_tek.cs</DependentUpon>
     </EmbeddedResource>

@@ -1,6 +1,6 @@
 ﻿namespace Tapsiriq_3
 {
-    partial class Cut_ve_tek
+    partial class _3_veya_4_bolunme
     {
         /// <summary>
         /// Required designer variable.
@@ -37,22 +37,22 @@
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label1.Location = new System.Drawing.Point(29, 97);
+            this.label1.Location = new System.Drawing.Point(18, 81);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(573, 53);
-            this.label1.TabIndex = 12;
+            this.label1.TabIndex = 15;
             this.label1.Text = "Nəticə burada göstəriləcək";
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.textBox1.Location = new System.Drawing.Point(34, 29);
+            this.textBox1.Location = new System.Drawing.Point(23, 13);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(607, 34);
-            this.textBox1.TabIndex = 11;
+            this.textBox1.TabIndex = 14;
             // 
             // button1
             // 
@@ -62,24 +62,23 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(144, 163);
+            this.button1.Location = new System.Drawing.Point(82, 158);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(458, 120);
-            this.button1.TabIndex = 10;
+            this.button1.TabIndex = 13;
             this.button1.Text = "yoxla";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Cut_ve_tek
+            // _3_veya_4_bolunme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(660, 308);
+            this.ClientSize = new System.Drawing.Size(649, 312);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Name = "Cut_ve_tek";
-            this.Text = "Cut_ve_tek";
+            this.Name = "_3_veya_4_bolunme";
+            this.Text = "_3_veya_4_bolunme";
             this.ResumeLayout(false);
             this.PerformLayout();
 

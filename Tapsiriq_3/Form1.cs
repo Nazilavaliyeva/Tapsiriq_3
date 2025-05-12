@@ -53,5 +53,7 @@ namespace Tapsiriq_3
             Cut_ve_tek cut = new Cut_ve_tek();
             cut.Show();
         }
+
+        //
     }
 }
