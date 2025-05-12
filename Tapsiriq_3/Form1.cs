@@ -66,6 +66,12 @@ namespace Tapsiriq_3
             Bolunme.Show();
         }
 
-        //
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Qiymete_uygun_herf qiymete_Uygun_Herf = new Qiymete_uygun_herf();
+            qiymete_Uygun_Herf.Show();  
+        }
+
+        
     }
 }
