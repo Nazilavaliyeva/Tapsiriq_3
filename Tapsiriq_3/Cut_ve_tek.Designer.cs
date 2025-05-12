@@ -79,6 +79,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Cut_ve_tek";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cut_ve_tek";
             this.ResumeLayout(false);
             this.PerformLayout();

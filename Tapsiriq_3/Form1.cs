@@ -74,8 +74,8 @@ namespace Tapsiriq_3
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Qiymete_uygun_herf qiymete_Uygun_Herf = new Qiymete_uygun_herf();
-            qiymete_Uygun_Herf.Show();  
+            Endirim_hesabla endirim_Hesabla = new Endirim_hesabla();
+            endirim_Hesabla.Show(); 
         }
     }
 }
